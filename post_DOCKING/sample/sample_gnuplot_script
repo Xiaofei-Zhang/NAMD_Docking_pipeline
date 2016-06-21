@@ -1,0 +1,9 @@
+set terminal postscript eps color "Helvetica" 20
+set xlabel "Percent of Ranked Database"
+set ylabel "Percent of Known Ligands Found"
+set title "Enrichment Plot of docking results of DUDe actives and decoys"
+set xrange [0.1:100]
+set ytics (0,20,40,60,80,100)
+set key bottom right box
+set output "DUDe_active_DUDe_decoy.eps"
+plot "LCK_CHEM_ZINC_enrichment.txt" w l title "LCK", "frame10_DUDe_active_DUDe_decoy_sorted_enrichment.txt" w l title "4c3f", "1lkk_DUDe_sorted_enrichment.txt" w l title "1lkk", "1qpc_DUDe_sorted_enrichment.txt" w l title "1qpc", "2iim_DUDe_sorted_enrichment.txt" w l title "2iim", "3ac1_DUDe_sorted_enrichment.txt" w l title "3ac1", "1_DUDe_sorted_enrichment.txt" w l title "4d8k_1", "2_DUDe_sorted_enrichment.txt" w l title "4d8k_2", "3_DUDe_sorted_enrichment.txt" w l title "4d8k_3"

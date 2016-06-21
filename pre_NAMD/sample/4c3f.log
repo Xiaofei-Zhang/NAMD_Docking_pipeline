@@ -1,0 +1,394 @@
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs detected.
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/MACOSXX86/molfile
+4c3f
+.pdb
+_p.pdb
+Info) Using plugin pdb for structure file 4c3f.pdb
+Info) Using plugin pdb for coordinates from file 4c3f.pdb
+Info) Determining bond structure from distance search ...
+Info) Eliminating bonds duplicated from existing structure...
+Info) Analyzing structure ...
+Info)    Atoms: 2491
+Info)    Bonds: 2191
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 617
+Info)    Waters: 355
+Info)    Segments: 1
+Info)    Fragments: 358   Protein: 2   Nucleic: 0
+0
+Info) Finished with coordinate file 4c3f.pdb.
+atomselect0
+Info) Opened coordinate file 4c3f_p.pdb for writing.
+Info) Finished with coordinate file 4c3f_p.pdb.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) Exiting normally.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs detected.
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/MACOSXX86/molfile
+4c3f
+_p.pdb
+_p_h.pdb
+_p_h.psf
+Info) Using plugin pdb for structure file 4c3f_p.pdb
+Info) Using plugin pdb for coordinates from file 4c3f_p.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 2112
+Info)    Bonds: 2164
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 261
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 2   Protein: 2   Nucleic: 0
+0
+Info) Finished with coordinate file 4c3f_p.pdb.
+1.6.2
+psfgen) reading topology file /Users/Xiaofei/Documents/2016SpringRA/Scripts/INP/top_all27_prot_lipid.inp
+
+psfgen) > CHARMM22 All-Hydrogen Topology File for Proteins and Lipids <<
+psfgen) >>>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>   July 2004    <<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to ADM jr. via the CHARMM web site: www.charmm.org
+psfgen)                parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) cross-term entries present in topology definitions
+psfgen) aliasing residue HIS to HSE
+psfgen) aliasing residue ILE atom CD1 to CD
+psfgen) building segment U
+psfgen) reading residues from pdb file 4c3f_p.pdb
+psfgen) extracted 257 residues from pdb file
+psfgen) Info: generating structure...psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file 4c3f_p.pdb for segment U
+psfgen) Warning: failed to set coordinate for atom O	 PHE:498	  U
+psfgen) Info: guessing coordinates for 2099 atoms (13 non-hydrogen)
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: poorly guessed coordinates for 10 atoms (2 non-hydrogen):
+psfgen) Warning: poorly guessed coordinate for atom HT1	 TRP:238	  U
+psfgen) Warning: poorly guessed coordinate for atom HT2	 TRP:238	  U
+psfgen) Warning: poorly guessed coordinate for atom HT3	 TRP:238	  U
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:282	  U
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:331	  U
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:447	  U
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:462	  U
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:466	  U
+psfgen) Warning: poorly guessed coordinate for atom OT1	 PHE:498	  U
+psfgen) Warning: poorly guessed coordinate for atom OT2	 PHE:498	  U
+psfgen) Info: writing pdb file 4c3f_p_h.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file 4c3f_p_h.psf
+psfgen) total of 4176 atoms
+psfgen) total of 4225 bonds
+psfgen) total of 7640 angles
+psfgen) total of 11203 dihedrals
+psfgen) total of 671 impropers
+psfgen) total of 255 cross-terms
+psfgen) Info: psf file complete.
+U:238 
+U:498 
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) Exiting normally.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs detected.
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/MACOSXX86/molfile
+4c3f
+_p_h.pdb
+_p_h.psf
+_wb
+1.6
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file 4c3f_p_h.psf
+Info) Analyzing structure ...
+Info)    Atoms: 4176
+Info)    Bonds: 4225
+Info)    Angles: 7640  Dihedrals: 11203  Impropers: 671  Cross-terms: 255
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 257
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Using plugin pdb for coordinates from file 4c3f_p_h.pdb
+Info) Finished with coordinate file 4c3f_p_h.pdb.
+Info) generating solute plus one replica of water...
+psfgen) reading structure from psf file 4c3f_p_h.psf
+psfgen) reading coordinates from pdb file 4c3f_p_h.pdb
+psfgen) reading structure from psf file /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/noarch/tcl/solvate1.6/wat.psf
+psfgen) psf file does not contain cross-terms
+psfgen) reading coordinates from pdb file /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/noarch/tcl/solvate1.6/wat.pdb
+psfgen) Info: writing psf file combine.psf
+psfgen) total of 31959 atoms
+psfgen) total of 22747 bonds
+psfgen) total of 26162 angles
+psfgen) total of 11203 dihedrals
+psfgen) total of 671 impropers
+psfgen) total of 255 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file combine.pdb
+psfgen) Info: pdb file complete.
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file combine.psf
+Info) Analyzing structure ...
+Info)    Atoms: 31959
+Info)    Bonds: 22747
+Info)    Angles: 26162  Dihedrals: 11203  Impropers: 671  Cross-terms: 255
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 9518
+Info)    Waters: 9261
+Info)    Segments: 2
+Info)    Fragments: 9262   Protein: 1   Nucleic: 0
+Info) Using plugin pdb for coordinates from file combine.pdb
+Info) Finished with coordinate file combine.pdb.
+Info) generating water residue lists...
+Info) single water residue type, creating residue list...
+Info) replicating 4 water segments, 2 by 1 by 2
+psfgen) reading topology file /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/noarch/tcl/solvate1.6/wat.top
+
+psfgen) >>>>>> Combined CHARMM All-Hydrogen Topology File for <<<<<<<<<
+psfgen) >>>>>>>>> CHARMM22 Proteins and CHARMM27 Lipids <<<<<<<<<<
+psfgen) from
+psfgen) >>>>>>>>CHARMM22 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>> August 1999 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<
+psfgen) >>>>>> 410-706-7442 or email: alex,mmiris.ab.umd.edu  <<<<<<<<<
+psfgen) and
+psfgen)   \\\\\\\ CHARMM27 All-Hydrogen Lipid Topology File ///////
+psfgen)   \\\\\\\\\\\\\\\\\\ Developmental /////////////////////////
+psfgen) 		Alexander D. MacKerell Jr.
+psfgen) 			August 1999
+psfgen)  All comments to ADM jr.  email: alex,mmiris.ab.umd.edu
+psfgen) 		telephone: 410-706-7442
+psfgen) 
+psfgen) Created by CHARMM version 27 1
+psfgen) building segment WT1
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...segment complete.
+psfgen) building segment WT2
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...segment complete.
+psfgen) building segment WT3
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...segment complete.
+psfgen) building segment WT4
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...segment complete.
+psfgen) Info: writing psf file 4c3f_wb.psf
+psfgen) total of 19293 atoms
+psfgen) total of 14303 bonds
+psfgen) total of 12679 angles
+psfgen) total of 11203 dihedrals
+psfgen) total of 671 impropers
+psfgen) total of 255 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file 4c3f_wb.pdb
+psfgen) Info: pdb file complete.
+psfgen) clearing structure, preserving topology and aliases
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file 4c3f_wb.psf
+Info) Analyzing structure ...
+Info)    Atoms: 19293
+Info)    Bonds: 14303
+Info)    Angles: 12679  Dihedrals: 11203  Impropers: 671  Cross-terms: 255
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 5296
+Info)    Waters: 5039
+Info)    Segments: 2
+Info)    Fragments: 5040   Protein: 1   Nucleic: 0
+Info) Using plugin pdb for coordinates from file 4c3f_wb.pdb
+Info) Finished with coordinate file 4c3f_wb.pdb.
+Info) Opened coordinate file 4c3f_wb.pdb for writing.
+Info) Finished with coordinate file 4c3f_wb.pdb.
+Info) Extra structure overlap safety check...
+Info) Solvate completed successfully.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) Exiting normally.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs detected.
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/MACOSXX86/molfile
+4c3f
+_wb.pdb
+_wb.psf
+_wb_i
+1.3
+Autoionize) Reading 4c3f_wb.psf/4c3f_wb.pdb...
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file 4c3f_wb.psf
+psfgen) reading coordinates from pdb file 4c3f_wb.pdb
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file 4c3f_wb.psf
+Info) Analyzing structure ...
+Info)    Atoms: 19293
+Info)    Bonds: 14303
+Info)    Angles: 12679  Dihedrals: 11203  Impropers: 671  Cross-terms: 255
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 5296
+Info)    Waters: 5039
+Info)    Segments: 2
+Info)    Fragments: 5040   Protein: 1   Nucleic: 0
+Info) Using plugin pdb for coordinates from file 4c3f_wb.pdb
+Info) Finished with coordinate file 4c3f_wb.pdb.
+Autoionize) System net charge before adding ions: -3.999996891245246e.
+Autoionize) Number of ions required for neutralizing the system: 4 SOD and 0 CLA.
+Autoionize) Ions to be placed:
+Autoionize)   4 SOD
+Autoionize) Required min distance from molecule: 5A.
+Autoionize) Required min distance between ions: 5A.
+Autoionize) Output file prefix '4c3f_wb_i'.
+Autoionize) Ions will be added to segname ION.
+Autoionize) Obtained positions for 4 ions.
+Autoionize) Tagged 4 water molecules for deletion.
+Autoionize) Deleted 4 water molecules.
+Autoionize) Reading CHARMM topology file...
+psfgen) reading topology file /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/noarch/tcl/readcharmmtop1.1/top_all27_prot_lipid_na.inp
+
+psfgen) >>>>>> Combined CHARMM All-Hydrogen Topology File for <<<<<<<<<
+psfgen) >>>>>>>>> CHARMM22 Proteins and CHARMM27 Lipids <<<<<<<<<<
+psfgen) >>>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<
+psfgen) from
+psfgen) >>>>>>>>CHARMM22 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>> August 1999 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<
+psfgen) >>>>>> 410-706-7442 or email: alex,mmiris.ab.umd.edu  <<<<<<<<<
+psfgen) and
+psfgen)   \\\\\\\ CHARMM27 All-Hydrogen Lipid Topology File ///////
+psfgen)   \\\\\\\\\\\\\\\\\\ Developmental /////////////////////////
+psfgen)               Alexander D. MacKerell Jr.
+psfgen)                      August 1999
+psfgen)  All comments to ADM jr.  email: alex,mmiris.ab.umd.edu
+psfgen)               telephone: 410-706-7442
+psfgen) 
+psfgen) Created by CHARMM version 27 1
+psfgen) cross-term entries present in topology definitions
+psfgen) building segment ION
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...segment complete.
+Autoionize) Randomizing ion positions...
+Autoionize) Assigning ion coordinates...
+psfgen) Info: writing psf file 4c3f_wb_i.psf
+psfgen) total of 19285 atoms
+psfgen) total of 14295 bonds
+psfgen) total of 12675 angles
+psfgen) total of 11203 dihedrals
+psfgen) total of 671 impropers
+psfgen) total of 255 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file 4c3f_wb_i.pdb
+psfgen) Info: pdb file complete.
+Autoionize) Loading new system with added ions...
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file 4c3f_wb_i.psf
+Info) Analyzing structure ...
+Info)    Atoms: 19285
+Info)    Bonds: 14295
+Info)    Angles: 12675  Dihedrals: 11203  Impropers: 671  Cross-terms: 255
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 5296
+Info)    Waters: 5035
+Info)    Segments: 3
+Info)    Fragments: 5040   Protein: 1   Nucleic: 0
+Info) Using plugin pdb for coordinates from file 4c3f_wb_i.pdb
+Info) Finished with coordinate file 4c3f_wb_i.pdb.
+Info) Opened coordinate file 4c3f_wb_i.pdb for writing.
+Info) Finished with coordinate file 4c3f_wb_i.pdb.
+Autoionize) System net charge after adding ions: 3.1087547540664673e-6e.
+Autoionize) All done.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) Exiting normally.
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs detected.
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /Volumes/VMD-1.9.2/VMD 1.9.2.app/Contents/vmd/plugins/MACOSXX86/molfile
+4c3f
+_wb_i.pdb
+_center.txt
+Info) Using plugin pdb for structure file 4c3f_wb_i.pdb
+Info) Using plugin pdb for coordinates from file 4c3f_wb_i.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 19285
+Info)    Bonds: 14313
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 5296
+Info)    Waters: 5035
+Info)    Segments: 3
+Info)    Fragments: 5041   Protein: 2   Nucleic: 0
+0
+Info) Finished with coordinate file 4c3f_wb_i.pdb.
+atomselect0
+60.83799934387207
+54.39999866485596
+64.62500381469727
+Info) VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+Info) Exiting normally.

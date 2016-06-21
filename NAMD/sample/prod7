@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -N 8 --tasks-per-node=28 
+#SBATCH -t 48:00:00
+#
+# Setup the module command
+set echo
+set -x 
+source /usr/share/Modules/init/bash
+# Load the needed modules
+module load fftw3
+#
+
+cd $SLURM_SUBMIT_DIR
+echo "$SLURM_NPROCS=" $SLURM_NPROCS
+export BINDIR=/opt/packages/namd_mpi/Linux-x86_64-MPI
+
+mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-27 prod7.conf >& prod7.log
