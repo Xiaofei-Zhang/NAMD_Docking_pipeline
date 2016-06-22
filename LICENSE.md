@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2016 Xiaofei Zhang
+Copyright (c) 2016 Xiaofei Zhang and Sally R. Ellingson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
