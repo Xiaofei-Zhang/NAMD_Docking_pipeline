@@ -17,6 +17,10 @@ results={}
 
 
 print len(file_list)
+out_file=open('mydocking_results', 'w')
+rank=1
+out_file.write('Order\tEnergy\tLigand')
+
 
 for file_name in file_list:
   result_file=open(file_name, 'r')
@@ -27,21 +31,9 @@ for file_name in file_list:
   energy_line=line.split()
   if len(energy_line) >= 4:
     best_energy=float(energy_line[3])
- 
-  #store in dictionary
-  if best_energy not in results:
-    results[best_energy]=[]
-  results[best_energy].append(file_name)
+    out_file.write('\n'+str(rank) + '\t' + str(best_energy) + '\t'+ file_name)
+    rank=rank+1
   result_file.close()
 
-#print output
-out_file=open('docking_results', 'w')
-rank=1
-out_file.write('Order\tEnergy\tLigand')
-for energy in results:
-  num_ener=len(results[energy])
-  for x in range(num_ener):
-    out_file.write('\n'+str(rank) + '\t' + str(energy) + '\t'+results[energy][x])
-    rank=rank+1
 
 out_file.close()

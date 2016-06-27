@@ -26,7 +26,7 @@ def print_error(*args, **kwargs):
 # get_sorted_records: function to sort the affinity data to file
 def get_sorted_records(infile, receptor_name, active_name, decoy_name, records):
 	for line in infile:
-		if decoy_name in line or active_name in line:
+		if receptor_name in line and (decoy_name in line or active_name in line):
 			split_line = line.split()
 			energy = float(split_line[1])
 			if energy not in records:
@@ -57,12 +57,11 @@ def get_enrichment(sorted_filename, receptor_name, active_name, decoy_name):
 		if first == 0:
 			split_line = line.split()
 			lig_name = split_line[2]
-
-			if receptor_name in lig_name and active_name in lig_name:
+			if active_name in lig_name:
 				lcount = lcount+1
 				elist.append(1)
 				tcount = tcount + 1
-			if receptor_name in lig_name and decoy_name in lig_name:
+			if decoy_name in lig_name:
 				elist.append(0)
 				tcount = tcount + 1
 		else:
