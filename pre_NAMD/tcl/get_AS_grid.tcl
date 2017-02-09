@@ -3,7 +3,8 @@ set inputsuffix ".pdb"
 set outputsuffix "_AS_grid.txt"
 set outpdbsuffix "_AS.pdb"
 mol new $molname$inputsuffix
-set sel [atomselect 0 "resid 253 259 271 273 288 314 316 to 320 322 371"]
+#set sel [atomselect 0 "resid 253 259 271 273 288 314 316 to 320 322 371"]
+set sel [atomselect 0 "resid 401"]
 set c [measure center $sel] ;foreach {cx cy cz} $c {}
 set m [measure minmax $sel] ;foreach {j1 j2} $m {} ;foreach {x2 y2 z2} $j2 {} ;foreach {x1 y1 z1} $j1 {}
 set x [expr $x2 - $x1]

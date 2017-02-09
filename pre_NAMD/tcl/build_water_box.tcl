@@ -3,4 +3,4 @@ set pdbsuffix "_p_h.pdb"
 set psfsuffix "_p_h.psf"
 set outputsuffix "_wb"
 package require solvate
-solvate $molname$psfsuffix $molname$pdbsuffix -t 5 -o $molname$outputsuffix
+solvate $molname$psfsuffix $molname$pdbsuffix -t 20 -o $molname$outputsuffix
