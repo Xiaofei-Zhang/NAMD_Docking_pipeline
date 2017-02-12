@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -N 16 --tasks-per-node=16
+#SBATCH -N 1 --tasks-per-node=16
 #SBATCH --mail-type=ALL
 #
 # Setup the module command
@@ -14,4 +14,6 @@ cd $SLURM_SUBMIT_DIR
 echo "$SLURM_NPROCS=" $SLURM_NPROCS
 export BINDIR=/share/cluster/RHEL6.2/x86_64/apps/NAMD/2.9/Linux-x86_64-MPI-icc/bin
 
-mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-15 prod5.conf > prod5.log
+mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-15 min.conf > min.log
+mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-15 equil1.conf > equil1.log
+mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-15 equil2.conf > equil2.log

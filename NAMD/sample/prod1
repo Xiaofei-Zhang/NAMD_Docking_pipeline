@@ -1,17 +1,17 @@
 #!/bin/bash
-#SBATCH -N 8 --tasks-per-node=28 
-#SBATCH -t 48:00:00
+#SBATCH -N 16 --tasks-per-node=16
+#SBATCH --mail-type=ALL
 #
 # Setup the module command
 set echo
 set -x 
 source /usr/share/Modules/init/bash
 # Load the needed modules
-module load fftw3
+module load fftw
 #
 
 cd $SLURM_SUBMIT_DIR
 echo "$SLURM_NPROCS=" $SLURM_NPROCS
-export BINDIR=/opt/packages/namd_mpi/Linux-x86_64-MPI
+export BINDIR=/share/cluster/RHEL6.2/x86_64/apps/NAMD/2.9/Linux-x86_64-MPI-icc/bin
 
-mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-27 prod1.conf >& prod1.log
+mpirun -np $SLURM_NPROCS $BINDIR/namd2 +pemap 0-15 prod1.conf > prod.log
