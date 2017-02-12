@@ -1,0 +1,20 @@
+# This file was created Fri Jul 22 18:30:34 2016
+# by the following command:
+# /home/xzh289/MD_tools/gromacs4.6/install/bin/g_cluster_d -n ../1QCF_selections2.ndx -cutoff 0.145 -f ../1QCF_5ps_traj.pdb -s ../1QCF_fftraj.pdb -method gromos -o -g -dist -ev -sz -ntr -clid -cl 
+#
+# g_cluster_d is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1    17066
+       2     2695
+       3      127
+       4       80
+       5       27
+       6        3
+       7        2

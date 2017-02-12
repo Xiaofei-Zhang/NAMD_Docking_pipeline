@@ -1,0 +1,19 @@
+# This file was created Fri Jul 22 18:30:34 2016
+# by the following command:
+# /home/xzh289/MD_tools/gromacs4.6/install/bin/g_cluster_d -n ../1QCF_selections2.ndx -cutoff 0.145 -f ../1QCF_5ps_traj.pdb -s ../1QCF_fftraj.pdb -method gromos -o -g -dist -ev -sz -ntr -clid -cl 
+#
+# g_cluster_d is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Cluster Transitions"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# transitions"
+@TYPE xy
+    1   233
+    2   122
+    3   162
+    4    67
+    5    46
+    6     4
+    7     4
