@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#SBATCH -p Med
+#SBATCH -n 256               # Number of processors
+#SBATCH --mail-type=ALL     # Send email when job starts/ends/dies
+
+
+time mpirun -n 256 $VINAMPI /home/xzh289/DOCKING_data/Receptors/1Y57/receptors.txt /home/xzh289/DOCKING_data/Ligends/LCK_active/ligands_sort_actives.txt 7 682 /home/xzh289/DOCKING_data/Receptors/1Y57/pdbqt /home/xzh289/DOCKING_data/Ligends/LCK_active/pdbqt
